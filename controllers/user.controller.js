@@ -1,7 +1,7 @@
 import { User } from "../models/user.model.js";
 import bcrypt from "bcrypt";
 import { sendCookie } from "../utils/features.js";
-import next from "next";
+
 
 export const getAllUsers = async (req, res) => {
   try {
